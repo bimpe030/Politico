@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo:wght@300;400;700&display=swap');
+
+body{
+    font-family: 'Chivo', sans-serif;
+    font-weight: 400;
+}
+
+.stay{
+    background: linear-gradient( rgba(4,9,30,0.2), rgba(4,9,30,0.2)), url("./image/Asorock.jpg");
+    height: 70vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.stay .open{
+    top: 20%;
+    left: 5%;
+    transform: translate(-20% -5%);
+}
+
+.stay img{
+    width: 150px;
+    top: 80%;
+    left: 10%;
+    transform: translate(-80% -10%);
+
+}
+
+.nigeria{
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.footer{
+    background: rgba(0, 135, 83, 0.05);
+    box-shadow: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25))
+}
+
+.footer img{
+    width: 50px;
+}
+
+.my-li{
+    text-decoration: none;
+}
+
+@media screen and (max-width: 700px){
+    .stay h1{
+        font-size: 24px;
+    }
+
+    .nigeria{
+        margin-top: 100px;
+    }
+    
+    .footer{
+        flex-direction: column;
+        
+    }
+
+    .card{
+        margin-bottom: 10px;
+    }
+}
